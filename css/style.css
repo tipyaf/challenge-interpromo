@@ -94,3 +94,11 @@ button:hover{
   color: #c7c7c7;
 
 }
+#sytem{
+  width: 100%;
+}
+.beautiful, .quick, .dollar{
+  width: 33%;
+  display: inline-flex;
+  justify-content: space-around;
+}
