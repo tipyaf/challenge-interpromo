@@ -91,7 +91,7 @@ header h1{
     border-radius: 10px;
 }
 button:hover{
-  color: #c7c7c7;
+  color: black;
 
 }
 
@@ -134,4 +134,21 @@ button:hover{
   margin: 0;
   padding-top: 50px;
   padding-bottom: 20px;
+}
+.dollar-bottom{
+  width: 50%;
+  display: inline-flex;
+  justify-content: center;
+
+}
+.big-dollar{
+  width: 353x;;
+  color: #8080BE;
+  font-size: 30px;
+}
+.per-paid{
+  width: 90%
+}
+.per-paid, .big-dollar{
+  text-align: center;
 }
