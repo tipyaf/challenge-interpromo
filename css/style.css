@@ -1,102 +1,95 @@
-#page{
+#page {
   max-width: 1400px;
   margin: 0;
-
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
-header{
+header {
   width: 100%;
   height: 550px;
   background-image: url('../images/payments-banner-graphic.png');
   background-size: cover;
 }
 
-
 /*------NAV-------*/
-nav{
+
+nav {
   width: 100%;
 }
-#menu{
+#menu {
   width: 100%;
   display: inline-flex;
   justify-content: space-between;
   padding-left: 10px;
   padding-top: 10px;
-
 }
-.nav-left{
+.nav-left {
   width: 30%;
   display: inline-flex;
   padding-right: 25px;
-
 }
-.nav-right{
-padding-right: 15px
+.nav-right {
+  padding-right: 15px
 }
-
-.mark-trad{
+.mark-trad {
   margin-left: -35px;
 }
-
-h1{
+h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
-  margin:0 auto;
+  margin: 0 auto;
   font-size: 2rem;
 }
-.nav ul{
+.nav ul {
   font-family: 'Open Sans', sans-serif;
   list-style-type: none;
   padding: 0;
 }
-nav li{
+nav li {
   display: inline;
   margin-left: 30px;
 }
- header h1, header h2, header h3, header ul{
-   color: white;
- }
-header h1{
+header h1, header h2, header h3, header ul {
+  color: white;
+}
+header h1 {
   font-size: 1.6em;
 }
 
 /*------HOME-------*/
- #home{
-    text-align: center;
-    margin-top: 100px;
- }
 
- header h2{
-   color: white;
-   font-size: 2.5rem;
-   font-family: 'Open Sans', sans-serif;
-   font-weight: lighter;
-   margin-bottom: 50px;
- }
-
- header h3{
-   font-family: cursive;
-   font-weight: lighter;
-   font-size: 24px;
-  margin-bottom: 50px;
- }
-
- button{
-    color: #8D8DC1;
-    width: 300px;
-    height: 40px;
-    border-radius: 10px;
+#home {
+  text-align: center;
+  margin-top: 100px;
 }
-button:hover{
+header h2 {
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+header h3 {
+  font-family: cursive;
+  font-weight: lighter;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+button {
+  color: #8D8DC1;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+}
+button:hover {
   color: black;
-
 }
 
 /*------system------*/
-#system{
+
+#system {
   width: 100%;
   display: inline-flex;
   justify-content: space-around;
@@ -104,51 +97,67 @@ button:hover{
   padding-bottom: 60px;
   border-bottom: 1px solid #DDDDDD;
 }
-#system h4, #system p{
+#system h4, #system p {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
 }
-#system p{
+#system p {
   font-size: 14px;
 }
-.beautiful, .quick, .secure{
+.beautiful, .quick, .secure {
   width: 33.33%;
   text-align: center;
-
 }
-.beautiful, .quick{
+.beautiful, .quick {
   border-right: 1px solid #DDDDDD;
-
 }
 
 /*------per paid invoice-------*/
-#dollar{
+
+#dollar {
   background-color: #F6F9FB;
   text-align: center;
-
-}
-#dollar h4{
   font-family: 'Open Sans', sans-serif;
+  padding-bottom: 50px;
+}
+#dollar h4 {
   font-weight: lighter;
   font-size: 22px;
   margin: 0;
   padding-top: 50px;
   padding-bottom: 20px;
 }
-.dollar-bottom{
+.dollar-bottom {
   width: 50%;
   display: inline-flex;
   justify-content: center;
-
 }
-.big-dollar{
-  width: 353x;;
+.big-dollar {
   color: #8080BE;
+  font-size: 50px;
+}
+.invoice {
+  /*width: 40%;*/
   font-size: 30px;
 }
-.per-paid{
-  width: 90%
+.transaction {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #AFA5A2;
 }
-.per-paid, .big-dollar{
+.per-paid, .big-dollar {
   text-align: center;
+}
+
+/*--------dark grey-------------*/
+
+#dark-grey {
+  background-color: #4C535C;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
