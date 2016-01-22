@@ -9,9 +9,7 @@ header{
   background-image: url('../images/payments-banner-graphic.png');
   background-size: cover;
 }
-#home{
 
-}
 nav{
   width: 100%;
 
@@ -47,4 +45,8 @@ nav li{
 }
  header h1, header h2, header h3, header ul{
    color: white;
+ }
+
+ #home{
+    text-align: center;
  }
