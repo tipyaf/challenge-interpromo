@@ -14,6 +14,8 @@ header{
   background-size: cover;
 }
 
+
+/*------NAV-------*/
 nav{
   width: 100%;
 }
@@ -34,10 +36,7 @@ nav{
 .nav-right{
 padding-right: 15px
 }
-.mark-trad, .trad, {
-  width: 100%;
-  display: inline;
-}
+
 .mark-trad{
   margin-left: -35px;
 }
@@ -63,10 +62,11 @@ nav li{
 header h1{
   font-size: 1.6em;
 }
+
+/*------HOME-------*/
  #home{
     text-align: center;
     margin-top: 100px;
-
  }
 
  header h2{
@@ -94,11 +94,44 @@ button:hover{
   color: #c7c7c7;
 
 }
-#sytem{
+
+/*------system------*/
+#system{
   width: 100%;
-}
-.beautiful, .quick, .dollar{
-  width: 33%;
   display: inline-flex;
   justify-content: space-around;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #DDDDDD;
+}
+#system h4, #system p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+#system p{
+  font-size: 14px;
+}
+.beautiful, .quick, .secure{
+  width: 33.33%;
+  text-align: center;
+
+}
+.beautiful, .quick{
+  border-right: 1px solid #DDDDDD;
+
+}
+
+/*------per paid invoice-------*/
+#dollar{
+  background-color: #F6F9FB;
+  text-align: center;
+
+}
+#dollar h4{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 22px;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
