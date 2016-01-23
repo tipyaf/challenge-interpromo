@@ -77,13 +77,13 @@ header h3 {
   font-size: 24px;
   margin-bottom: 50px;
 }
-button {
+#home button {
   color: #8D8DC1;
   width: 300px;
   height: 40px;
   border-radius: 10px;
 }
-button:hover {
+#home button:hover {
   color: black;
 }
 
@@ -166,11 +166,11 @@ button:hover {
 .section{
   width: 100%;
   display: inline-flex;
+  text-align: center;
 }
 
 .left, .right{
   width: 50%;
-  /*text-align: center;*/
   padding-top: 120px;
 
 }
@@ -181,6 +181,7 @@ button:hover {
 .purple{
   background-color:#8080BE;
 }
+
 
 #grid img{
   border-top-left-radius: 10px;
@@ -202,5 +203,32 @@ button:hover {
 .grid-text{
   width: 60%;
   padding-left: 144px;
-  padding-top:
+  text-align: left;
+}
+
+/*--------account-------------*/
+#account{
+  border-top:1px solid #DDDDDD;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 50px;
+padding-top: 50px;
+  text-align: center;
+}
+#account h3{
+  font-size: 26px;
+    font-weight: lighter;
+}
+#account button{
+  background-color: #00B088;
+  color: white;
+  height: 40px;
+  border-radius:5px;
+  font-size: 15px;
+}
+#account button:hover{
+  background-color: #1d9378;
+  color: white;
+}
+.bold{
+  font-weight: bold;
 }
