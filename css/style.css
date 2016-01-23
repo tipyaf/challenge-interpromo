@@ -161,3 +161,46 @@ button:hover {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+
+/*--------grid-------------*/
+.section{
+  width: 100%;
+  display: inline-flex;
+}
+
+.left, .right{
+  width: 50%;
+  /*text-align: center;*/
+  padding-top: 120px;
+
+}
+
+.blue{
+  background-color: #7CD5EF;
+}
+.purple{
+  background-color:#8080BE;
+}
+
+#grid img{
+  border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+    margin-bottom: -4px;
+}
+
+#grid h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#grid p{
+  font-family: cursive;
+  font-size: 20px;
+  color: #676666;
+}
+
+.grid-text{
+  width: 60%;
+  padding-left: 144px;
+  padding-top:
+}
