@@ -171,8 +171,9 @@ header h3 {
 }
 .left, .right {
   width: 50%;
-  padding-top: 120px;
+
   margin: 0 auto;
+    padding-top: 120px;
 }
 .blue {
   background-color: #7CD5EF;
