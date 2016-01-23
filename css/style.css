@@ -1,6 +1,6 @@
 #page {
   max-width: 1400px;
-  margin: 0;
+  margin: 0 auto;
 }
 a {
   text-decoration: none;
@@ -163,72 +163,111 @@ header h3 {
 }
 
 /*--------grid-------------*/
-.section{
+
+.section {
   width: 100%;
   display: inline-flex;
   text-align: center;
 }
-
-.left, .right{
+.left, .right {
   width: 50%;
   padding-top: 120px;
-
+  margin: 0 auto;
 }
-
-.blue{
+.blue {
   background-color: #7CD5EF;
 }
-.purple{
-  background-color:#8080BE;
+.purple {
+  background-color: #8080BE;
 }
-
-
-#grid img{
+#grid img {
   border-top-left-radius: 10px;
-    border-top-right-radius: 15px;
-    margin-bottom: -4px;
+  border-top-right-radius: 15px;
+  margin-bottom: -4px;
+  width: 80%;
 }
-
-#grid h3{
+#grid h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: lighter;
 }
-#grid p{
+#grid p {
   font-family: cursive;
   font-size: 20px;
   color: #676666;
 }
-
-.grid-text{
+.grid-text {
   width: 60%;
-  padding-left: 144px;
+  margin: auto auto;
   text-align: left;
 }
 
 /*--------account-------------*/
-#account{
-  border-top:1px solid #DDDDDD;
+
+#account {
+  border-top: 1px solid #DDDDDD;
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 50px;
-padding-top: 50px;
+  padding-top: 50px;
   text-align: center;
 }
-#account h3{
+#account h3 {
   font-size: 26px;
-    font-weight: lighter;
+  font-weight: lighter;
+  color: #383737;
 }
-#account button{
+#account button {
   background-color: #00B088;
   color: white;
   height: 40px;
-  border-radius:5px;
+  border-radius: 5px;
   font-size: 15px;
 }
-#account button:hover{
+#account button:hover {
   background-color: #1d9378;
   color: white;
 }
-.bold{
+.bold {
   font-weight: bold;
+}
+
+/*-----------FOOTER-----------*/
+
+footer {
+  background-color: #242629;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+footer li {
+  margin: 20px auto;
+  font-size: 14px;
+  font-weight: bold;
+}
+footer h3, footer a, footer p {
+  color: #AAAAAA;
+}
+footer h3 {
+  color: #5B5C60;
+  font-weight: lighter;
+}
+footer p {
+  font-size: 12px;
+}
+footer i {
+  margin-right: 8px;
+}
+.bottom-foot, .copyr {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+}
+.foot {
+  margin-top: 60px;
+  margin-bottom: 40px
+}
+.copyr {
+  padding-bottom: 60px;
 }
