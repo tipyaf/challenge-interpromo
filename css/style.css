@@ -20,12 +20,21 @@ nav {
 }
 #menu {
   width: 100%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 10px;
 }
 .nav-left {
   width: 30%;
+  display: -webkit-inline-box;
+  display: -webkit-iginline-flex;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   padding-right: 25px;
 }
@@ -93,8 +102,13 @@ header h3 {
 
 #system {
   width: 100%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  justify-content: space-around;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: 1px solid #DDDDDD;
@@ -131,8 +145,14 @@ header h3 {
 }
 .dollar-bottom {
   width: 50%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .big-dollar {
   color: #8080BE;
@@ -168,6 +188,9 @@ header h3 {
 
 .section {
   width: 100%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   text-align: center;
 }
@@ -262,8 +285,14 @@ footer i {
   margin-right: 8px;
 }
 .bottom-foot, .copyr {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 60%;
   margin: auto;
 }
