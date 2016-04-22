@@ -135,26 +135,26 @@
         <div class="foot list">
           <h3>Products</h3>
           <ul>
-            <li><a href="">CONTRACTS</a></li>
-            <li><a href="">PAYMENTS</a></li>
-            <li><a href="">RATES</a></li>
+            <li><a href="#">CONTRACTS</a></li>
+            <li><a href="#">PAYMENTS</a></li>
+            <li><a href="#">RATES</a></li>
           </ul>
         </div>
         <div class="foot list">
           <h3>Company</h3>
           <ul>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">BLOG</a></li>
-            <li><a href="">FAQ</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">FAQ</a></li>
           </ul>
         </div>
 
         <div class="foot contact">
           <h3>Company</h3>
           <ul>
-            <li><a href="">760 rue d'ici</a></li>
-            <li><a href="">34000 MONTPELLIER</a></li>
-            <li><a href=""><i class="fa fa-envelope"></i><i class="fa fa-twitter"></i><i class="fa fa-heart"></i></a></li>
+            <li><a href="#">760 rue d'ici</a></li>
+            <li><a href="#">34000 MONTPELLIER</a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i><i class="fa fa-twitter"></i><i class="fa fa-heart"></i></a></li>
           </ul>
         </div>
       </div>
@@ -168,6 +168,35 @@
       </div>
     </footer>
   </div>
+
+  <div id="modal" class="off">
+      <h2>Information</h2>
+      <p>Cette page a été réalisée dans un but illustratif. Les liens ne sont pas cliquables.</p>
+      <button id="closeModal">Fermer</button>
+      <a href="http://tipyaf.github.io/CvYaBe/">Retour au Cv en ligne</a>
+  </div>
+
+  <script>
+    var closeModal = document.getElementById("closeModal");
+    var modal = document.getElementById('modal');
+    var link = document.getElementById("page");
+    var modalText = document.getElementById("modal-text");
+
+
+    function noClick(){
+      modal.className ="on";
+    };
+    function initModal(){
+      modal.className ="off";
+    }
+    function hideModal(){
+      modal.className ="close";
+      setTimeout("initModal()", 2100);
+    }
+    link.addEventListener("click", noClick);
+    modal.addEventListener("click", hideModal);
+    closeModal.addEventListener("click", hideModal);
+  </script>
 </body>
 
 </html>
